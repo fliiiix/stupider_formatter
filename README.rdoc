@@ -1,3 +1,7 @@
+= StupiderFormatter
+
+This is a fork from https://github.com/colszowka/stupid_formatter
+
 = StupidFormatter
 
 StupidFormatter let's you pipe text through processors in a chain by abstracting the actual implementation

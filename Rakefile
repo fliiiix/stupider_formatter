@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "stupid_formatter"
+    gem.name = "stupider_formatter"
     gem.summary = %Q{A stupid formatter for piping text through markup processors}
     gem.description = %Q{A stupid formatter for piping text through markup processors with a unified API}
-    gem.email = "christoph at olszowka dot de"
-    gem.homepage = "http://github.com/colszowka/stupid_formatter"
-    gem.authors = ["Christoph Olszowka"]
+    gem.email = "hi at l33t dot name"
+    gem.homepage = "https://github.com/fliiiix/stupider_formatter"
+    gem.authors = ["Christoph Olszowka", "l33tname"]
     gem.add_dependency "rdiscount", ">= 1.5.0"
     gem.add_dependency "coderay", ">= 0.9.0"
     gem.add_development_dependency "shoulda", ">= 0"
@@ -49,7 +49,7 @@ RDoc::Task.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "stupid_formatter #{version}"
+  rdoc.title = "stupider_formatter #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
